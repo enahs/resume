@@ -1,0 +1,59 @@
+var resume = {
+    "name" : "Shane Frykholm",
+    "address" : "140 S Van Ness #1102,San Francisco, CA, 94103",
+    "contact" : {
+        "email" : "sgfrykholm@gmail.com",
+        "phone" : "626-221-1507",
+        "github" : "enahs"
+    },
+    "Projects": {
+        "Industry Ventures" : {
+            "description" : "Developed a site for a client using Ruby on Rails with minimal prior knowledge thereof. Added CMS-like features and created a relatively complex schema for a 'seemingly' static site. Established infrastructure using Heroku/Phusion/PG/Nginx for speed, reliabilty and ease of use.",
+            "url" : "http://serene-ridge-4786.herokuapp.com"
+        },
+        "Men's Wearhouse Mobile Site [moovweb]" : {
+            "description" : "Created a mobile website for The Men's wearhouse using the Moovweb platform to leverage existing HTML and some javascript. Wrote a lot of Javascript and CSS to make it look and function properly on mobile.",
+            "url" : "http://m.menswearhouse.com"
+        }
+    },
+    "professionalExperience" : [
+        {
+            "company" : "Moovweb",
+            "startDate" : "February 2012",
+            "endDate" : "presently occupied",
+            "title" : "Mobile Development Lead",
+            "description" : "Lead an elite squad of four mobile web developers, a project manager and a QA engineer to project nirvana. Concurrently developed three websites while managing live site releases for over 20 clients. Onboarded new minions and lead the hiring process for multiple technical and non-technical roles."
+        },	
+        {
+            "company" : "Moovweb",
+            "startDate" : "October 2012",
+            "endDate" : "February 2012",
+            "title" : "Mobile Web Developer",
+            "description" : "Took ownership of a large scale project and subsequently developed the iPad specific website for George division of the Asda co., based out of the UK. Worked as part of a team to maintain current site implementations all whilst simultaneously managing relations with project managers, clients, UX designers and QA teams across three continents."
+        },
+        {
+            "company" : "Moovweb",
+            "startDate" : "June 2012",
+            "endDate" : "October 2012",
+            "title" : "Support Engineer",
+            "description" : " Started off fixing tickets and coordinating releases for customer mobile websites. Eventually, ended up developing entire releases, and taking ownership of the enterprise customer onboarding process for our cloud-based platform."
+        },
+        {
+            "company" : "Unical Aviation",
+            "startDate" : "November 2010",
+            "endDate" : "March 2012",
+            "title" : "IT Support / Junior programmer",
+            "description" : "Developed business reporting applications using C# and .NET for demand planning. Wrote a lot of custom SQL reports and ensured data was synchronized properly across a cluster of oracle and microsoft databases."
+        }
+    ],
+    "skills" : {
+        "languages" : ["javascript", "jQuery", "HTML5", "SQL", "SCSS", "C#", "java", "ruby" ],
+        "misc" : ["shell programming", "CURL", "dig", "netstat", "heroku", "git"],
+        "learning" :["backbone.js","more Ruby on Rails", "EC2 infrastructure and automation", "iOS Application Development"]
+    },
+    "education" : {
+        "school" : "UC Santa Cruz",
+        "degree" : "Computer Science",
+        "graduationdate" : "June 2010"
+    }
+}
